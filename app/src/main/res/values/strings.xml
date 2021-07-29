@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">OTPView</string>
+    <string name="str_show">Show</string>
+    <string name="str_hide">Hide</string>
+    <string name="str_verification_code">Please enter 6 digit OTP sent on your registered mobile number XXXXXX1111 to confirm your details</string>
+</resources>

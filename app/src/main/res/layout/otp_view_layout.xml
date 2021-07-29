@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/llParent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etMPINView1"
+            style="@style/EditTextStyle"
+            app:backgroundTint="@color/colorAccent"/>
+
+        <EditText
+            android:id="@+id/etMPINView2"
+            style="@style/EditTextStyle"
+            app:backgroundTint="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/etMPINView3"
+            style="@style/EditTextStyle"
+            app:backgroundTint="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/etMPINView4"
+            style="@style/EditTextStyle"
+            app:backgroundTint="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/etMPINView5"
+            style="@style/EditTextStyle"
+            app:backgroundTint="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/etMPINView6"
+            style="@style/EditTextStyle"
+            android:imeOptions="actionDone"
+            app:backgroundTint="@color/colorAccent" />
+
+        <EditText
+            android:id="@+id/etMPINHiddenView"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@null"
+            android:cursorVisible="false"
+            android:gravity="center_horizontal"
+            android:inputType="numberPassword"
+            android:maxLength="6"
+            android:textColor="#00000000" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnShowHide"
+            style="@style/btnDefaultGradient"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginStart="16dp"
+            android:gravity="center" />
+    </LinearLayout>
+</RelativeLayout>
